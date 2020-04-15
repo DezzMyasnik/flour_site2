@@ -1,0 +1,13 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Pay</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+</head>
+<body style="color: #336699 ; font-family: Verdana">
+<form action=""
+method=POST name="frm">
+    { {% csrf_token %}
+    {% render_form serializer %}
+<input type="submit" value="Отправить" />
+</form>
+</body>
+</html>
