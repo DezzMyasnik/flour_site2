@@ -11,7 +11,7 @@ django-oauth-toolkit==1.2.0
 django-photologue==3.9
 django-rest-framework-social-oauth2==1.1.0
 django-sortedm2m==1.5.0
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 drf-yasg==1.16.1
 ExifRead==2.1.2
